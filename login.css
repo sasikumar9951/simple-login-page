@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-image: url(https://images2.alphacoders.com/108/1088434.jpg);
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .icons{
+margin-top: 30px;
+font-size: 40px;
+color: black;
+cursor: pointer;
+
+
+}
+main h1{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(9, 9, 9);
+}
+main{
+  position: absolute;
+  top: 250px;
+  width: 500px;
+  left: 80px;
+  color: rgb(6, 6, 6);
+}
+header h1{
+  user-select: none;
+  cursor: pointer;
+  margin-top: 8px
+
+}
+header {
+  position: relative;
+}
+.navigation {
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  display: inline;
+  display: inline-block;
+}
+.navigation button:hover {
+  background-color: black;
+  color: white;
+
+}
+.navigation a:hover {
+  border-bottom: 2px solid rgb(9, 5, 5);
+
+   
+}
+.navigation a {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+.navigation button {
+  margin-left: 30px;
+  border-radius: 10px;
+  width: 80px;
+  border: none;
+  padding: 6px 0 6px 0;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+}
+.containerbox h1 {
+  text-align: center;
+  color: darkblue;
+}
+.containerbox {
+  position: absolute;
+
+  background: transparent;
+  backdrop-filter: blur(10px);
+  height: 350px;
+  width: 300px;
+  left: 600px;
+  top: 180px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+}
+
+.containerbox input {
+  margin-top: 30px;
+  display: block;
+  border: none;
+
+  border-bottom: 1px solid black;
+  background: transparent;
+  width: 250px;
+  outline: none;
+}
+.containerbox #lab {
+  position: absolute;
+  top: 107px;
+  font-size: small;
+}
+.containerbox #label {
+  position: absolute;
+  top: 157px;
+  font-size: small;
+  color: black;
+}
+.log {
+  margin-top: 60px;
+  margin-left: 25px;
+}
+header h1 {
+  display: inline-block;
+  color: aqua;
+  font-weight: 600;
+
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+#btn {
+  margin-top: 20px;
+  margin-left: 23px;
+  width: 255px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+.at {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.at a {
+  text-decoration: none;
+  color: blue;
+}
+.at a:hover {
+  text-decoration: underline;
+}
+.signup {
+  margin-top: 30px;
+  margin-left: 26px;
+}
+.signup a {
+  color: blue;
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+#x {
+  position: absolute;
+  top: 1px;
+  background-color: black;
+  left: 303px;
+  margin-top: 5px;
+  padding: 5px;
+  padding-top: 2px;
+  width: 35px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  height: 35px;
+}
